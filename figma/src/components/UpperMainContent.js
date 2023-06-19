@@ -1,4 +1,4 @@
-import { Typography, Stack } from '@mui/material'
+import { Stack } from '@mui/material'
 import React from 'react'
 import { TiPen } from "react-icons/ti"
 import { IoMdLink } from "react-icons/io"
@@ -6,6 +6,7 @@ import { BsFunnel } from "react-icons/bs"
 import { IoIosArrowDown } from "react-icons/io"
 import { CiCalendarDate } from "react-icons/ci"
 import { FaEquals } from "react-icons/fa"
+import {MdPeopleOutline} from "react-icons/md"
 
 const UpperMainContent = () => {
     return (
@@ -37,7 +38,7 @@ const UpperMainContent = () => {
                 <Stack direction="row" alignItems="center" justifyContent="space-around" style={{ height: "100px", width: "300px" }}>
 
                     <button className="filter-button2">
-                        <CiCalendarDate className="icon" />
+                        <MdPeopleOutline className="icon" />
                         Share
                         <IoIosArrowDown className="icon" />
                     </button>

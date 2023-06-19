@@ -1,10 +1,5 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material';
-import GridViewIcon from '@mui/icons-material/GridView';
-import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
-import { GoTasklist } from "react-icons/go"
-import { BsPeople } from "react-icons/bs"
-import { CiSettings } from "react-icons/ci"
 import { BiDotsHorizontalRounded } from "react-icons/bi"
 import { RxDotFilled } from "react-icons/rx"
 import { AiFillBulb } from "react-icons/ai"
