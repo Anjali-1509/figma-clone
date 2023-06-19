@@ -5,12 +5,12 @@ import KanbanBoard from './KanbanBoard'
 
 const MainContent = () => {
   return (
-    <div style={{display:"flex"}}>
-        <SideBar />
-       <div style={{ height:"100vh", width:"100%"}}>
-         <UpperMainContent />
-          <KanbanBoard />
-       </div>
+    <div style={{ display: "flex" }}>
+      <SideBar />
+      <div style={{ height: "100vh", width: "100%" }}>
+        <UpperMainContent />
+        <KanbanBoard />
+      </div>
     </div>
   )
 }

@@ -27,7 +27,7 @@ const KanbanBoard = () => {
                 desc: "Low fidelity wireframes include the most basic content and visuals.",
                 img: "https://i.ibb.co/VNDHTFL/Group-634.png"
             },
-            
+
         ],
         inProgress: [
             {
@@ -115,7 +115,7 @@ const KanbanBoard = () => {
                         {
                             cardContent.desc ? <>
                                 <div style={{ display: "flex", width: "85%", justifyContent: "space-between", alignItems: "center", height: "30px" }}>
-                                    <p className={cardContent.rank==="Completed" && "completed" || cardContent.rank==="Low" && "low" || cardContent.rank==="High" && "high"}>{cardContent.rank}</p>
+                                    <p className={cardContent.rank === "Completed" && "completed" || cardContent.rank === "Low" && "low" || cardContent.rank === "High" && "high"}>{cardContent.rank}</p>
                                     <BiDotsHorizontalRounded size="20" />
                                 </div>
 
@@ -129,9 +129,9 @@ const KanbanBoard = () => {
                             </>
                                 :
                                 <>
-                                    <div style={{ display: "flex", width: "85%",justifyContent: "space-between", alignItems: "center", height: "30px" }}>
-                                        <p className={cardContent.rank==="Completed" && "completed" || cardContent.rank==="Low" && "low"}>{cardContent.rank}</p>
-                                        <BiDotsHorizontalRounded size="20" style={{marginTop:"30px"}} />
+                                    <div style={{ display: "flex", width: "85%", justifyContent: "space-between", alignItems: "center", height: "30px" }}>
+                                        <p className={cardContent.rank === "Completed" && "completed" || cardContent.rank === "Low" && "low"}>{cardContent.rank}</p>
+                                        <BiDotsHorizontalRounded size="20" style={{ marginTop: "30px" }} />
                                     </div>
 
                                     <div style={{ textAlign: "left", width: "90%", height: "auto" }}>
@@ -166,7 +166,7 @@ const KanbanBoard = () => {
                         {
                             cardContent.desc ? <>
                                 <div style={{ display: "flex", width: "85%", justifyContent: "space-between", alignItems: "center", height: "30px" }}>
-                                    <p className={cardContent.rank==="Completed" ? "completed" :"low"}>{cardContent.rank}</p>
+                                    <p className={cardContent.rank === "Completed" ? "completed" : "low"}>{cardContent.rank}</p>
                                     <BiDotsHorizontalRounded size="20" />
                                 </div>
 
@@ -181,14 +181,14 @@ const KanbanBoard = () => {
                                 :
                                 <>
                                     <div style={{ display: "flex", width: "85%", justifyContent: "space-between", alignItems: "center", height: "30px" }}>
-                                        <p className={cardContent.rank==="Completed" ? "completed" :"low"}>{cardContent.rank}</p>
+                                        <p className={cardContent.rank === "Completed" ? "completed" : "low"}>{cardContent.rank}</p>
                                         <BiDotsHorizontalRounded size="20" />
                                     </div>
 
                                     <div style={{ textAlign: "left", width: "90%", height: "auto" }}>
                                         <p className="name2">{cardContent.name}</p>
                                         <img className="heroImg" src={cardContent.heroImg} alt={cardContent.name} />
-                                        <div  style={{ marginTop: "50px" }}>
+                                        <div style={{ marginTop: "50px" }}>
                                             <img className="comment" src={cardContent.img} alt={cardContent.name} />
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@ const KanbanBoard = () => {
                         {
                             cardContent.desc ? <>
                                 <div style={{ display: "flex", width: "85%", justifyContent: "space-between", alignItems: "center", height: "30px" }}>
-                                    <p className={cardContent.rank==="Completed" ? "completed" :"low"}>{cardContent.rank}</p>
+                                    <p className={cardContent.rank === "Completed" ? "completed" : "low"}>{cardContent.rank}</p>
                                     <BiDotsHorizontalRounded size="20" />
                                 </div>
 
@@ -232,7 +232,7 @@ const KanbanBoard = () => {
                                 :
                                 <>
                                     <div style={{ display: "flex", width: "85%", justifyContent: "space-between", alignItems: "center", height: "30px" }}>
-                                        <p className={cardContent.rank==="Completed" ? "completed" :"low"}>{cardContent.rank}</p>
+                                        <p className={cardContent.rank === "Completed" ? "completed" : "low"}>{cardContent.rank}</p>
                                         <BiDotsHorizontalRounded size="20" />
                                     </div>
 

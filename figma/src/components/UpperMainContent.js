@@ -5,7 +5,7 @@ import { IoMdLink } from "react-icons/io"
 import { BsFunnel } from "react-icons/bs"
 import { IoIosArrowDown } from "react-icons/io"
 import { CiCalendarDate } from "react-icons/ci"
-import {FaEquals} from "react-icons/fa"
+import { FaEquals } from "react-icons/fa"
 
 const UpperMainContent = () => {
     return (
@@ -28,31 +28,31 @@ const UpperMainContent = () => {
             </div>
 
             <div className="upper_main_content_second">
-                <img 
-                alt="avatar"
-                src="https://i.ibb.co/68t0rBm/Group-646-2.png" 
-                style={{marginRight:"20PX", width:"210px"}}
+                <img
+                    alt="avatar"
+                    src="https://i.ibb.co/68t0rBm/Group-646-2.png"
+                    style={{ marginRight: "20PX", width: "210px" }}
                 />
 
                 <Stack direction="row" alignItems="center" justifyContent="space-around" style={{ height: "100px", width: "300px" }}>
-             
-                        <button className="filter-button2">
-                            <CiCalendarDate className="icon" />
-                            Share
-                            <IoIosArrowDown className="icon" />
-                        </button>
-                          
-                          <div style={{height:"30px", width:"0px", border:"1px solid #787486", marginLeft:"10px"}}></div>
 
-                        <button className="square-button">
-                           <FaEquals size="30" />
-                        </button>
+                    <button className="filter-button2">
+                        <CiCalendarDate className="icon" />
+                        Share
+                        <IoIosArrowDown className="icon" />
+                    </button>
 
-                        <img 
-                        style={{ height:"40px", width:"30px"}}
+                    <div style={{ height: "30px", width: "0px", border: "1px solid #787486", marginLeft: "10px" }}></div>
+
+                    <button className="square-button">
+                        <FaEquals size="30" />
+                    </button>
+
+                    <img
+                        style={{ height: "40px", width: "30px" }}
                         alt="dots"
                         src="https://i.ibb.co/QMx37rm/edit-logo.png" />
-                   
+
                 </Stack>
             </div>
         </div>
